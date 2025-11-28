@@ -1,33 +1,30 @@
 {
-
-  "name": "devil-web-to-web-convo",
-
+  "name": "facebook-message-bot",
   "version": "1.0.0",
-
-  "description": "DEVIL WEB TO WEB CONVO CHAT COOKIES VERSION - LOOP MODE",
-
-  "main": "server.js",
-
+  "description": "A Facebook messaging bot using fca-mafiya library",
+  "main": "bot.js",
   "scripts": {
-
-    "start": "node server.js"
-
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
+  "keywords": [
+    "facebook",
+    "bot",
+    "messenger",
+    "automation",
+    "fca-mafiya"
+  ],
+  "author": "R4J M1SHR9",
+  "license": "MIT",
   "dependencies": {
-
-    "axios": "^1.6.8",
-
-    "express": "^4.18.2",
-
-    "ws": "^8.14.2",
-
     "fca-mafiya": "latest"
-
   },
-
-  "author": "DEVIL",
-
-  "license": "MIT"
-
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url-here"
+  }
 }
